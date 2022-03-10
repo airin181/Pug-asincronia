@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Film
+        link(rel="stylesheet", href="style.css")
+    body
+        each film in films
+            h1 Coincidencias con la búsqueda
+            p Título: #{film.title}
+            p Descripción: #{film.year}
+            img(src=film.poster, alt=film.title width="100")
+
+
+    

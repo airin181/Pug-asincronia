@@ -1,0 +1,22 @@
+.home{
+background-color: antiquewhite;
+margin: 0;
+display: flex;
+justify-content: center;
+}
+
+.container{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    width: 40%;
+    border: 2px solid black;
+}
+
+form {
+    margin: 20px;
+}
